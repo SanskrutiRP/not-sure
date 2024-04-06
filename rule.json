@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+            "fact": "totalOrderValue",
+            "value": 5000,
+            "operator": "greaterThanInclusive"
+        },
+        {
+            "fact": "maximumOrderValue",
+            "value": 500,
+            "operator": "greaterThanInclusive"
+        },
+        {
+            "fact": "activeDuration",
+            "value": 24,
+            "operator": "lessThanInclusive"
+        }
+    ]
+}
